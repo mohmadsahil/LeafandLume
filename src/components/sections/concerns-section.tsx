@@ -38,13 +38,13 @@ export function ConcernsSection() {
             </div>
 
             <Button asChild size="lg" className="mt-7 rounded-full px-6">
-              <Link href="/shop">
+              <Link href="/quiz">
                 Take the 60-sec skin quiz
                 <ArrowUpRight className="size-4" aria-hidden />
               </Link>
             </Button>
             <p className="mt-3 text-xs text-muted-foreground">
-              Personalised routine · Dermatologist-vetted · 100% free.
+              Earn Glow Points · Dermatologist-vetted · 100% free.
             </p>
           </div>
 

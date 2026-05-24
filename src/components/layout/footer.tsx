@@ -122,7 +122,10 @@ export function Footer() {
                 className="shadow-soft overflow-hidden rounded-2xl border border-border/70 bg-background/70 px-4 backdrop-blur"
               >
                 <AccordionPrimitive.Header className="flex">
-                  <AccordionPrimitive.Trigger className="group flex flex-1 items-center justify-between gap-2 py-3.5 text-left text-[11px] font-semibold uppercase tracking-[0.18em] text-foreground/75 transition-colors hover:text-primary">
+                  <AccordionPrimitive.Trigger
+                    suppressHydrationWarning
+                    className="group flex flex-1 items-center justify-between gap-2 py-3.5 text-left text-[11px] font-semibold uppercase tracking-[0.18em] text-foreground/75 transition-colors hover:text-primary"
+                  >
                     {column.title}
                     <span
                       aria-hidden

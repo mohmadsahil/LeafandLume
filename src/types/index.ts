@@ -70,6 +70,7 @@ export interface Ingredient {
 export interface Reel {
   id: string;
   thumbnail: string;
+  videoUrl?: string;
   caption: string;
   author: string;
   productSlug: string;
@@ -119,4 +120,18 @@ export interface ApiError {
   message: string;
   status: number;
   code?: string;
+}
+
+export interface Address {
+  id: string;
+  label: string;
+  fullName: string;
+  phone: string;
+  line1: string;
+  line2?: string;
+  city: string;
+  state: string;
+  zip: string;
+  country: string;
+  isDefault?: boolean;
 }

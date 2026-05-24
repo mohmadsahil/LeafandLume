@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Play, Plus, Check } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { toast } from 'sonner';
 import { useAppDispatch } from '@/store/hooks';
 import { addToCart, setCartOpen } from '@/store/slices/cart-slice';
@@ -20,7 +20,24 @@ interface ReelCardProps {
 
 export function ReelCard({ reel, product, isActive, className }: ReelCardProps) {
   const dispatch = useAppDispatch();
+  const videoRef = useRef<HTMLVideoElement | null>(null);
   const [added, setAdded] = useState(false);
+
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    if (isActive) {
+      v.currentTime = 0;
+      const promise = v.play();
+      if (promise && typeof promise.catch === 'function') {
+        promise.catch(() => {
+          /* ignore autoplay rejection */
+        });
+      }
+    } else {
+      v.pause();
+    }
+  }, [isActive]);
 
   const handleAdd = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -45,6 +62,8 @@ export function ReelCard({ reel, product, isActive, className }: ReelCardProps) 
     });
   };
 
+  const showVideo = isActive && Boolean(reel.videoUrl);
+
   return (
     <motion.div
       animate={{
@@ -60,13 +79,27 @@ export function ReelCard({ reel, product, isActive, className }: ReelCardProps) 
         aria-label={`Reel: ${reel.caption}`}
         tabIndex={isActive ? 0 : -1}
       >
-        <Image
-          src={reel.thumbnail}
-          alt=""
-          fill
-          sizes="(max-width: 640px) 60vw, 280px"
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-        />
+        {showVideo ? (
+          <video
+            ref={videoRef}
+            src={reel.videoUrl}
+            poster={reel.thumbnail}
+            muted
+            loop
+            playsInline
+            autoPlay
+            preload="metadata"
+            className="absolute inset-0 size-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+          />
+        ) : (
+          <Image
+            src={reel.thumbnail}
+            alt=""
+            fill
+            sizes="(max-width: 640px) 60vw, 280px"
+            className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+          />
+        )}
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/0 to-black/15" />
 

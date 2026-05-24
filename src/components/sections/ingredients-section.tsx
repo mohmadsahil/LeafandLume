@@ -63,6 +63,7 @@ export function IngredientsSection() {
                 role="tab"
                 aria-selected={isActive}
                 onClick={() => setActiveIdx(i)}
+                suppressHydrationWarning
                 className={cn(
                   'inline-flex shrink-0 items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-all',
                   isActive

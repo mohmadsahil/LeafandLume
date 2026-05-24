@@ -172,10 +172,10 @@ export function ShopClient() {
       {/* Bottom CTA */}
       <div className="mt-12 flex flex-col items-center gap-2">
         <Button asChild variant="outline" className="rounded-full">
-          <Link href="/#concerns">Not sure where to start? Take the skin quiz →</Link>
+          <Link href="/quiz">Not sure where to start? Play the Glow Quiz →</Link>
         </Button>
         <p className="text-xs text-muted-foreground">
-          60-second quiz · Personalised routine · Free
+          60-second quiz · Earn Glow Points · Free
         </p>
       </div>
     </>

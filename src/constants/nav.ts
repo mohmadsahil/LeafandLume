@@ -60,7 +60,7 @@ export const footerNav = [
       { title: 'All Products', href: '/shop' },
       { title: 'Bestsellers', href: '/shop?filter=bestseller' },
       { title: 'New Arrivals', href: '/shop?filter=new' },
-      { title: 'Skin Quiz', href: '/#concerns' },
+      { title: 'Glow Quiz', href: '/quiz' },
     ],
   },
   {
