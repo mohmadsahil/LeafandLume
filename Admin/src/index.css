@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 20% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 12%;
+
+    --primary: 104 32% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 110 28% 96%;
+    --secondary-foreground: 104 32% 22%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 110 30% 94%;
+    --accent-foreground: 104 32% 22%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 14% 92%;
+    --input: 220 14% 92%;
+    --ring: 104 32% 42%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased font-sans;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  /* Scrollbars */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e5e7eb;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cbd5e1;
+    background-clip: content-box;
+    border: 2px solid transparent;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/80 backdrop-blur-xl border border-border/60 shadow-soft;
+  }
+
+  .leaf-gradient {
+    background: linear-gradient(135deg, #f3f9f1 0%, #e3f1de 50%, #d3e9c8 100%);
+  }
+
+  .skeleton {
+    @apply relative overflow-hidden bg-muted/60 rounded-md;
+  }
+  .skeleton::after {
+    content: "";
+    @apply absolute inset-0 -translate-x-full animate-shimmer;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.6),
+      transparent
+    );
+  }
+}
+
+@layer utilities {
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+}

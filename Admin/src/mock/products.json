@@ -1,0 +1,385 @@
+[
+  {
+    "id": "p_001",
+    "name": "Hydra Bloom Vitamin C Serum",
+    "slug": "hydra-bloom-vitamin-c-serum",
+    "description": "A weightless, brightening serum with 15% L-Ascorbic Acid, hyaluronic acid and chamomile.",
+    "shortDescription": "Brightening serum for radiant glow.",
+    "sku": "LL-SRM-001",
+    "brand": "Leaf & Lume",
+    "category": "Serums",
+    "subcategory": "Brightening",
+    "tags": ["serum", "vitamin c", "brightening", "vegan"],
+    "mrpPrice": 78,
+    "salePrice": 64,
+    "discount": 18,
+    "tax": 8,
+    "currency": "USD",
+    "images": [
+      { "id": "i1", "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop", "isFeatured": true },
+      { "id": "i2", "url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop" },
+      { "id": "i3", "url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&auto=format&fit=crop" }
+    ],
+    "variants": [
+      { "id": "v1", "size": "30ml", "sku": "LL-SRM-001-30", "price": 64, "stock": 124 },
+      { "id": "v2", "size": "50ml", "sku": "LL-SRM-001-50", "price": 89, "stock": 78 }
+    ],
+    "inventory": {
+      "totalStock": 202,
+      "lowStockAlert": 25,
+      "warehouse": "NY-WH-01",
+      "batchNumber": "B-2024-09",
+      "expiryDate": "2027-09-12"
+    },
+    "skincare": {
+      "skinType": ["Normal", "Dry", "Combination"],
+      "skinConcerns": ["Dullness", "Dark Spots", "Hyperpigmentation"],
+      "ingredients": "Aqua, L-Ascorbic Acid (15%), Sodium Hyaluronate, Chamomile Extract, Glycerin, Tocopherol.",
+      "usageInstructions": "Apply 3–4 drops to clean skin morning. Follow with moisturizer and SPF.",
+      "benefits": "Brightens, evens tone, boosts radiance.",
+      "dermatologicallyTested": true,
+      "vegan": true,
+      "crueltyFree": true,
+      "sulfateFree": true,
+      "parabenFree": true
+    },
+    "seo": {
+      "metaTitle": "Hydra Bloom Vitamin C Serum | Leaf & Lume",
+      "metaDescription": "Brightening serum with 15% Vitamin C for a radiant, even glow.",
+      "focusKeyword": "vitamin c serum",
+      "slug": "hydra-bloom-vitamin-c-serum",
+      "ogImage": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop"
+    },
+    "status": "published",
+    "rating": 4.8,
+    "reviewsCount": 312,
+    "totalSold": 1486,
+    "createdAt": "2025-09-14T10:11:00Z",
+    "updatedAt": "2026-04-22T08:32:00Z"
+  },
+  {
+    "id": "p_002",
+    "name": "Velvet Bloom Hydrating Cream",
+    "slug": "velvet-bloom-hydrating-cream",
+    "description": "Plumping cream with squalane and peptides for 72-hour hydration.",
+    "shortDescription": "72h plumping hydration cream.",
+    "sku": "LL-CRM-002",
+    "brand": "Leaf & Lume",
+    "category": "Moisturizers",
+    "subcategory": "Cream",
+    "tags": ["cream", "hydration", "peptides"],
+    "mrpPrice": 92,
+    "salePrice": 78,
+    "discount": 15,
+    "tax": 8,
+    "currency": "USD",
+    "images": [
+      { "id": "i1", "url": "https://images.unsplash.com/photo-1620916566256-2c9b5f8c1eaf?w=600&auto=format&fit=crop", "isFeatured": true },
+      { "id": "i2", "url": "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=600&auto=format&fit=crop" }
+    ],
+    "variants": [
+      { "id": "v1", "size": "50ml", "sku": "LL-CRM-002-50", "price": 78, "stock": 64 }
+    ],
+    "inventory": {
+      "totalStock": 64,
+      "lowStockAlert": 20,
+      "warehouse": "NY-WH-01"
+    },
+    "skincare": {
+      "skinType": ["Dry", "Mature"],
+      "skinConcerns": ["Wrinkles", "Aging", "Dryness"],
+      "ingredients": "Squalane, Peptides, Niacinamide, Shea Butter, Aloe Vera.",
+      "usageInstructions": "Apply morning and evening on cleansed skin.",
+      "benefits": "Long-lasting hydration, plumping, soothing.",
+      "dermatologicallyTested": true,
+      "vegan": true,
+      "crueltyFree": true,
+      "sulfateFree": true,
+      "parabenFree": true
+    },
+    "seo": {
+      "metaTitle": "Velvet Bloom Hydrating Cream | Leaf & Lume",
+      "metaDescription": "72-hour plumping cream with squalane and peptides.",
+      "focusKeyword": "hydrating cream",
+      "slug": "velvet-bloom-hydrating-cream"
+    },
+    "status": "published",
+    "rating": 4.7,
+    "reviewsCount": 186,
+    "totalSold": 902,
+    "createdAt": "2025-10-02T08:00:00Z",
+    "updatedAt": "2026-05-08T11:11:00Z"
+  },
+  {
+    "id": "p_003",
+    "name": "Rose Petal Glow Toner",
+    "slug": "rose-petal-glow-toner",
+    "description": "Refreshing rose toner with niacinamide that balances and preps skin.",
+    "shortDescription": "Balancing rose toner.",
+    "sku": "LL-TNR-003",
+    "brand": "Leaf & Lume",
+    "category": "Toners",
+    "tags": ["toner", "rose", "niacinamide"],
+    "mrpPrice": 48,
+    "salePrice": 38,
+    "discount": 20,
+    "tax": 8,
+    "currency": "USD",
+    "images": [
+      { "id": "i1", "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop", "isFeatured": true }
+    ],
+    "variants": [
+      { "id": "v1", "size": "150ml", "sku": "LL-TNR-003-150", "price": 38, "stock": 220 }
+    ],
+    "inventory": { "totalStock": 220, "lowStockAlert": 30, "warehouse": "NY-WH-01" },
+    "skincare": {
+      "skinType": ["Normal", "Sensitive"],
+      "skinConcerns": ["Redness", "Dullness"],
+      "ingredients": "Rose Water, Niacinamide, Witch Hazel.",
+      "usageInstructions": "Apply with cotton pad after cleansing.",
+      "benefits": "Balances pH, soothes, refreshes.",
+      "dermatologicallyTested": true,
+      "vegan": true,
+      "crueltyFree": true,
+      "sulfateFree": true,
+      "parabenFree": true
+    },
+    "seo": {
+      "metaTitle": "Rose Petal Glow Toner | Leaf & Lume",
+      "metaDescription": "Refreshing rose toner with niacinamide.",
+      "focusKeyword": "rose toner",
+      "slug": "rose-petal-glow-toner"
+    },
+    "status": "published",
+    "rating": 4.6,
+    "reviewsCount": 92,
+    "totalSold": 540,
+    "createdAt": "2025-11-08T07:23:00Z",
+    "updatedAt": "2026-03-15T09:18:00Z"
+  },
+  {
+    "id": "p_004",
+    "name": "Mint Burst Foaming Cleanser",
+    "slug": "mint-burst-foaming-cleanser",
+    "description": "Sulfate-free foaming cleanser with mint and aloe to refresh and purify.",
+    "shortDescription": "Refreshing foaming cleanser.",
+    "sku": "LL-CLN-004",
+    "brand": "Leaf & Lume",
+    "category": "Cleansers",
+    "tags": ["cleanser", "mint", "aloe"],
+    "mrpPrice": 32,
+    "salePrice": 28,
+    "discount": 12,
+    "tax": 8,
+    "currency": "USD",
+    "images": [
+      { "id": "i1", "url": "https://images.unsplash.com/photo-1631730486572-226d1f595b68?w=600&auto=format&fit=crop", "isFeatured": true }
+    ],
+    "variants": [{ "id": "v1", "size": "120ml", "sku": "LL-CLN-004-120", "price": 28, "stock": 18 }],
+    "inventory": { "totalStock": 18, "lowStockAlert": 25, "warehouse": "NY-WH-02" },
+    "skincare": {
+      "skinType": ["Oily", "Combination"],
+      "skinConcerns": ["Acne", "Dullness"],
+      "ingredients": "Aqua, Mint Extract, Aloe Vera, Glycerin.",
+      "usageInstructions": "Massage onto wet skin, rinse with lukewarm water.",
+      "benefits": "Refreshes, cleanses, soothes.",
+      "dermatologicallyTested": true,
+      "vegan": true,
+      "crueltyFree": true,
+      "sulfateFree": true,
+      "parabenFree": true
+    },
+    "seo": {
+      "metaTitle": "Mint Burst Foaming Cleanser",
+      "metaDescription": "Refreshing sulfate-free cleanser.",
+      "focusKeyword": "foaming cleanser",
+      "slug": "mint-burst-foaming-cleanser"
+    },
+    "status": "published",
+    "rating": 4.5,
+    "reviewsCount": 142,
+    "totalSold": 1108,
+    "createdAt": "2025-12-01T14:00:00Z",
+    "updatedAt": "2026-04-10T13:20:00Z"
+  },
+  {
+    "id": "p_005",
+    "name": "Solstice SPF 50 Featherlight Shield",
+    "slug": "solstice-spf-50-featherlight-shield",
+    "description": "Invisible mineral SPF 50 with niacinamide and antioxidants.",
+    "shortDescription": "Invisible SPF 50.",
+    "sku": "LL-SPF-005",
+    "brand": "Leaf & Lume",
+    "category": "Sunscreens",
+    "tags": ["spf", "sunscreen", "mineral"],
+    "mrpPrice": 56,
+    "salePrice": 48,
+    "discount": 14,
+    "tax": 8,
+    "currency": "USD",
+    "images": [
+      { "id": "i1", "url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop", "isFeatured": true }
+    ],
+    "variants": [{ "id": "v1", "size": "50ml", "sku": "LL-SPF-005-50", "price": 48, "stock": 86 }],
+    "inventory": { "totalStock": 86, "lowStockAlert": 25, "warehouse": "NY-WH-01" },
+    "skincare": {
+      "skinType": ["Normal", "Oily", "Sensitive"],
+      "skinConcerns": ["Aging", "Hyperpigmentation"],
+      "ingredients": "Zinc Oxide, Niacinamide, Vitamin E, Green Tea Extract.",
+      "usageInstructions": "Apply generously 15 minutes before sun exposure.",
+      "benefits": "Broad spectrum protection, oil-free.",
+      "dermatologicallyTested": true,
+      "vegan": true,
+      "crueltyFree": true,
+      "sulfateFree": true,
+      "parabenFree": true
+    },
+    "seo": {
+      "metaTitle": "Solstice SPF 50 Featherlight Shield",
+      "metaDescription": "Invisible mineral SPF 50.",
+      "focusKeyword": "mineral spf 50",
+      "slug": "solstice-spf-50-featherlight-shield"
+    },
+    "status": "published",
+    "rating": 4.9,
+    "reviewsCount": 224,
+    "totalSold": 1320,
+    "createdAt": "2025-08-22T08:01:00Z",
+    "updatedAt": "2026-05-01T10:45:00Z"
+  },
+  {
+    "id": "p_006",
+    "name": "Midnight Renewal Retinol Oil",
+    "slug": "midnight-renewal-retinol-oil",
+    "description": "Slow-release retinol oil blend with bakuchiol and rosehip.",
+    "shortDescription": "Retinol night oil.",
+    "sku": "LL-OIL-006",
+    "brand": "Leaf & Lume",
+    "category": "Serums",
+    "tags": ["retinol", "oil", "night"],
+    "mrpPrice": 112,
+    "salePrice": 96,
+    "discount": 14,
+    "tax": 8,
+    "currency": "USD",
+    "images": [
+      { "id": "i1", "url": "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=600&auto=format&fit=crop", "isFeatured": true }
+    ],
+    "variants": [{ "id": "v1", "size": "30ml", "sku": "LL-OIL-006-30", "price": 96, "stock": 42 }],
+    "inventory": { "totalStock": 42, "lowStockAlert": 20, "warehouse": "NY-WH-01" },
+    "skincare": {
+      "skinType": ["Mature", "Normal"],
+      "skinConcerns": ["Aging", "Wrinkles"],
+      "ingredients": "Encapsulated Retinol, Bakuchiol, Rosehip Oil, Squalane.",
+      "usageInstructions": "Apply at night to clean skin. Use SPF in the morning.",
+      "benefits": "Smooths, renews, firms.",
+      "dermatologicallyTested": true,
+      "vegan": true,
+      "crueltyFree": true,
+      "sulfateFree": true,
+      "parabenFree": true
+    },
+    "seo": {
+      "metaTitle": "Midnight Renewal Retinol Oil",
+      "metaDescription": "Retinol night oil with bakuchiol.",
+      "focusKeyword": "retinol oil",
+      "slug": "midnight-renewal-retinol-oil"
+    },
+    "status": "draft",
+    "rating": 4.7,
+    "reviewsCount": 78,
+    "totalSold": 412,
+    "createdAt": "2026-01-19T06:13:00Z",
+    "updatedAt": "2026-05-10T09:00:00Z"
+  },
+  {
+    "id": "p_007",
+    "name": "Green Garden Clay Mask",
+    "slug": "green-garden-clay-mask",
+    "description": "Detoxifying kaolin clay mask infused with matcha and tea tree.",
+    "shortDescription": "Detoxifying clay mask.",
+    "sku": "LL-MSK-007",
+    "brand": "Leaf & Lume",
+    "category": "Masks",
+    "tags": ["mask", "clay", "matcha"],
+    "mrpPrice": 44,
+    "salePrice": 34,
+    "discount": 22,
+    "tax": 8,
+    "currency": "USD",
+    "images": [
+      { "id": "i1", "url": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=600&auto=format&fit=crop", "isFeatured": true }
+    ],
+    "variants": [{ "id": "v1", "size": "100ml", "sku": "LL-MSK-007-100", "price": 34, "stock": 10 }],
+    "inventory": { "totalStock": 10, "lowStockAlert": 25, "warehouse": "NY-WH-02" },
+    "skincare": {
+      "skinType": ["Oily", "Combination"],
+      "skinConcerns": ["Acne", "Dullness"],
+      "ingredients": "Kaolin Clay, Matcha, Tea Tree Oil, Aloe Vera.",
+      "usageInstructions": "Apply 1-2 times per week. Leave for 10 min, rinse with warm water.",
+      "benefits": "Detoxifies, purifies, refines pores.",
+      "dermatologicallyTested": true,
+      "vegan": true,
+      "crueltyFree": true,
+      "sulfateFree": true,
+      "parabenFree": true
+    },
+    "seo": {
+      "metaTitle": "Green Garden Clay Mask",
+      "metaDescription": "Detoxifying matcha clay mask.",
+      "focusKeyword": "clay mask",
+      "slug": "green-garden-clay-mask"
+    },
+    "status": "published",
+    "rating": 4.4,
+    "reviewsCount": 67,
+    "totalSold": 322,
+    "createdAt": "2025-12-18T10:00:00Z",
+    "updatedAt": "2026-04-29T12:00:00Z"
+  },
+  {
+    "id": "p_008",
+    "name": "Aura Eye Awakening Gel",
+    "slug": "aura-eye-awakening-gel",
+    "description": "Caffeine eye gel that depuffs and brightens the eye area.",
+    "shortDescription": "Brightening eye gel.",
+    "sku": "LL-EYE-008",
+    "brand": "Leaf & Lume",
+    "category": "Eye Care",
+    "tags": ["eye", "caffeine", "depuff"],
+    "mrpPrice": 38,
+    "salePrice": 32,
+    "discount": 16,
+    "tax": 8,
+    "currency": "USD",
+    "images": [
+      { "id": "i1", "url": "https://images.unsplash.com/photo-1571781565036-d3f759be73e4?w=600&auto=format&fit=crop", "isFeatured": true }
+    ],
+    "variants": [{ "id": "v1", "size": "15ml", "sku": "LL-EYE-008-15", "price": 32, "stock": 55 }],
+    "inventory": { "totalStock": 55, "lowStockAlert": 20, "warehouse": "NY-WH-01" },
+    "skincare": {
+      "skinType": ["Normal", "Sensitive"],
+      "skinConcerns": ["Dark Spots", "Aging"],
+      "ingredients": "Caffeine, Niacinamide, Vitamin C, Hyaluronic Acid.",
+      "usageInstructions": "Tap around eye area morning and night.",
+      "benefits": "Depuffs, brightens, smooths.",
+      "dermatologicallyTested": true,
+      "vegan": true,
+      "crueltyFree": true,
+      "sulfateFree": true,
+      "parabenFree": true
+    },
+    "seo": {
+      "metaTitle": "Aura Eye Awakening Gel",
+      "metaDescription": "Depuffing eye gel.",
+      "focusKeyword": "eye gel",
+      "slug": "aura-eye-awakening-gel"
+    },
+    "status": "published",
+    "rating": 4.6,
+    "reviewsCount": 134,
+    "totalSold": 798,
+    "createdAt": "2026-02-04T13:00:00Z",
+    "updatedAt": "2026-05-15T15:30:00Z"
+  }
+]

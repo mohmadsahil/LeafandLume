@@ -1,0 +1,140 @@
+[
+  {
+    "id": "c_001",
+    "name": "Aria Patel",
+    "email": "aria.patel@example.com",
+    "phone": "+1 212 555 0144",
+    "avatar": "https://i.pravatar.cc/64?img=32",
+    "ordersCount": 14,
+    "totalSpend": 1842.4,
+    "skinType": "Combination",
+    "skinConcerns": ["Dullness", "Dark Spots"],
+    "loyaltyPoints": 1840,
+    "status": "active",
+    "addresses": [
+      {
+        "id": "a1",
+        "label": "Home",
+        "line1": "521 Bleecker St",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "zip": "10014",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      { "productId": "p_006", "name": "Midnight Renewal Retinol Oil", "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=200&auto=format&fit=crop", "price": 96 }
+    ],
+    "subscriptionHistory": [
+      { "id": "s1", "plan": "Glow Monthly", "status": "Active", "startDate": "2025-12-01", "nextRenewal": "2026-06-01" }
+    ],
+    "createdAt": "2024-08-12T10:00:00Z"
+  },
+  {
+    "id": "c_002",
+    "name": "Mia Chen",
+    "email": "mia@example.com",
+    "phone": "+1 718 555 0123",
+    "avatar": "https://i.pravatar.cc/64?img=15",
+    "ordersCount": 9,
+    "totalSpend": 1102.5,
+    "skinType": "Sensitive",
+    "skinConcerns": ["Redness"],
+    "loyaltyPoints": 980,
+    "status": "active",
+    "addresses": [
+      {
+        "id": "a1",
+        "label": "Home",
+        "line1": "12 Cedar Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "USA",
+        "zip": "11211",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "subscriptionHistory": [],
+    "createdAt": "2024-11-04T08:00:00Z"
+  },
+  {
+    "id": "c_003",
+    "name": "Noah Williams",
+    "email": "noah@example.com",
+    "phone": "+1 617 555 0166",
+    "avatar": "https://i.pravatar.cc/64?img=22",
+    "ordersCount": 4,
+    "totalSpend": 320.7,
+    "skinType": "Normal",
+    "skinConcerns": ["Dryness"],
+    "loyaltyPoints": 280,
+    "status": "active",
+    "addresses": [
+      { "id": "a1", "label": "Home", "line1": "8 Park Pl", "city": "Boston", "state": "MA", "country": "USA", "zip": "02108", "isDefault": true }
+    ],
+    "wishlist": [],
+    "subscriptionHistory": [],
+    "createdAt": "2025-02-10T11:00:00Z"
+  },
+  {
+    "id": "c_004",
+    "name": "Olivia Reyes",
+    "email": "olivia.r@example.com",
+    "phone": "+1 312 555 0173",
+    "avatar": "https://i.pravatar.cc/64?img=44",
+    "ordersCount": 6,
+    "totalSpend": 612.2,
+    "skinType": "Mature",
+    "skinConcerns": ["Wrinkles", "Aging"],
+    "loyaltyPoints": 540,
+    "status": "active",
+    "addresses": [
+      { "id": "a1", "label": "Home", "line1": "21 Lake Rd", "city": "Chicago", "state": "IL", "country": "USA", "zip": "60611", "isDefault": true }
+    ],
+    "wishlist": [],
+    "subscriptionHistory": [],
+    "createdAt": "2025-05-22T09:30:00Z"
+  },
+  {
+    "id": "c_005",
+    "name": "Liam Park",
+    "email": "liam.park@example.com",
+    "phone": "+1 512 555 0102",
+    "avatar": "https://i.pravatar.cc/64?img=11",
+    "ordersCount": 2,
+    "totalSpend": 198.5,
+    "skinType": "Oily",
+    "skinConcerns": ["Acne"],
+    "loyaltyPoints": 120,
+    "status": "inactive",
+    "addresses": [
+      { "id": "a1", "label": "Home", "line1": "9 Maple Ln", "city": "Austin", "state": "TX", "country": "USA", "zip": "73301", "isDefault": true }
+    ],
+    "wishlist": [],
+    "subscriptionHistory": [],
+    "createdAt": "2025-09-08T14:30:00Z"
+  },
+  {
+    "id": "c_006",
+    "name": "Sophia Khan",
+    "email": "sophia.k@example.com",
+    "phone": "+1 415 555 0190",
+    "avatar": "https://i.pravatar.cc/64?img=49",
+    "ordersCount": 11,
+    "totalSpend": 1432.8,
+    "skinType": "Normal",
+    "skinConcerns": ["Hyperpigmentation"],
+    "loyaltyPoints": 1320,
+    "status": "active",
+    "addresses": [
+      { "id": "a1", "label": "Home", "line1": "1717 Bay St", "city": "San Francisco", "state": "CA", "country": "USA", "zip": "94133", "isDefault": true }
+    ],
+    "wishlist": [],
+    "subscriptionHistory": [
+      { "id": "s1", "plan": "Glow Monthly", "status": "Active", "startDate": "2025-11-01" }
+    ],
+    "createdAt": "2024-06-19T07:11:00Z"
+  }
+]

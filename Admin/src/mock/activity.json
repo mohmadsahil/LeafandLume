@@ -1,0 +1,7 @@
+[
+  { "id": "al_001", "user": { "id": "u_001", "name": "Sahil Admin", "avatar": "https://i.pravatar.cc/64?img=47" }, "action": "Updated product", "target": "Hydra Bloom Vitamin C Serum", "meta": "Changed price", "ip": "98.110.21.4", "at": "2026-05-24T08:11:00Z" },
+  { "id": "al_002", "user": { "id": "u_002", "name": "Maya Wong", "avatar": "https://i.pravatar.cc/64?img=23" }, "action": "Approved review", "target": "Aria Patel · 5★", "ip": "72.224.10.4", "at": "2026-05-23T18:00:00Z" },
+  { "id": "al_003", "user": { "id": "u_001", "name": "Sahil Admin", "avatar": "https://i.pravatar.cc/64?img=47" }, "action": "Created banner", "target": "Spring Bloom Collection", "ip": "98.110.21.4", "at": "2026-05-22T14:01:00Z" },
+  { "id": "al_004", "user": { "id": "u_003", "name": "Eli Brooks", "avatar": "https://i.pravatar.cc/64?img=12" }, "action": "Replied to ticket", "target": "Tara Kapoor · Wholesale", "ip": "182.10.4.21", "at": "2026-05-21T10:11:00Z" },
+  { "id": "al_005", "user": { "id": "u_001", "name": "Sahil Admin", "avatar": "https://i.pravatar.cc/64?img=47" }, "action": "Refunded order", "target": "LL-30211", "ip": "98.110.21.4", "at": "2026-05-19T15:11:00Z" }
+]

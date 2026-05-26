@@ -1,0 +1,33 @@
+{
+  "overview": {
+    "averageScore": 82,
+    "indexedPages": 142,
+    "totalPages": 156,
+    "brokenLinks": 4,
+    "redirects": 12,
+    "topKeywords": [
+      { "keyword": "vitamin c serum", "position": 3, "volume": 22400 },
+      { "keyword": "vegan skincare", "position": 5, "volume": 18200 },
+      { "keyword": "natural hydrating cream", "position": 8, "volume": 12400 },
+      { "keyword": "rose toner", "position": 12, "volume": 8400 },
+      { "keyword": "mineral spf 50", "position": 4, "volume": 14200 }
+    ],
+    "recommendations": [
+      { "id": "rec_1", "level": "critical", "message": "4 product pages are missing a meta description." },
+      { "id": "rec_2", "level": "warning", "message": "2 image alt tags are empty on the homepage hero." },
+      { "id": "rec_3", "level": "info", "message": "Improve internal links between Serums and Moisturizers." }
+    ]
+  },
+  "pages": [
+    { "id": "sp_1", "url": "/products/hydra-bloom-vitamin-c-serum", "title": "Hydra Bloom Vitamin C Serum", "metaTitle": "Hydra Bloom Vitamin C Serum | Leaf & Lume", "metaDescription": "Brightening serum with 15% Vitamin C.", "keywords": ["vitamin c serum"], "canonical": "https://leafandlume.com/products/hydra-bloom-vitamin-c-serum", "score": 92, "status": "good", "indexed": true, "lastChecked": "2026-05-23" },
+    { "id": "sp_2", "url": "/collections/spring-bloom", "title": "Spring Bloom Collection", "metaTitle": "Spring Bloom Collection", "metaDescription": "Curated spring skincare drops.", "keywords": ["spring skincare"], "canonical": "https://leafandlume.com/collections/spring-bloom", "score": 86, "status": "good", "indexed": true, "lastChecked": "2026-05-22" },
+    { "id": "sp_3", "url": "/products/midnight-renewal-retinol-oil", "title": "Midnight Renewal Retinol Oil", "metaTitle": "", "metaDescription": "", "keywords": ["retinol oil"], "canonical": "https://leafandlume.com/products/midnight-renewal-retinol-oil", "score": 62, "status": "warning", "indexed": false, "lastChecked": "2026-05-21" },
+    { "id": "sp_4", "url": "/journal/winter-routine", "title": "Building a Winter Routine", "metaTitle": "Winter Skincare Routine", "metaDescription": "Build your winter routine with our experts.", "keywords": ["winter skincare"], "canonical": "https://leafandlume.com/journal/winter-routine", "score": 78, "status": "warning", "indexed": true, "lastChecked": "2026-05-20" },
+    { "id": "sp_5", "url": "/about", "title": "About Leaf & Lume", "metaTitle": "About Us", "metaDescription": "Our story, our values, our craft.", "keywords": ["about leaf and lume"], "canonical": "https://leafandlume.com/about", "score": 90, "status": "good", "indexed": true, "lastChecked": "2026-05-22" }
+  ],
+  "redirects": [
+    { "id": "rd_1", "from": "/products/old-cleanser", "to": "/products/mint-burst-foaming-cleanser", "type": "301", "hits": 412, "createdAt": "2026-02-12" },
+    { "id": "rd_2", "from": "/collections/sale", "to": "/collections/spring-bloom", "type": "302", "hits": 218, "createdAt": "2026-04-30" },
+    { "id": "rd_3", "from": "/blog", "to": "/journal", "type": "301", "hits": 1224, "createdAt": "2025-11-10" }
+  ]
+}
