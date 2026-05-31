@@ -1,0 +1,53 @@
+import type { Coupon } from '@/types';
+
+export const coupons: Coupon[] = [
+  {
+    id: 'cp1',
+    code: 'GLOW20',
+    title: '20% off your first order',
+    description: 'Apply at checkout for an instant 20% off on any order above $50.',
+    discountType: 'percent',
+    discountValue: 20,
+    minOrder: 50,
+    expiresAt: '2026-12-31',
+  },
+  {
+    id: 'cp2',
+    code: 'FREESHIP',
+    title: 'Free shipping',
+    description: 'No minimum. Standard shipping is on us, anywhere in the country.',
+    discountType: 'flat',
+    discountValue: 5,
+    expiresAt: '2026-09-30',
+  },
+  {
+    id: 'cp3',
+    code: 'BUNDLE15',
+    title: '15% off bundles',
+    description: 'Stack any two products and unlock 15% off automatically.',
+    discountType: 'percent',
+    discountValue: 15,
+    minOrder: 0,
+    expiresAt: '2026-08-15',
+  },
+  {
+    id: 'cp4',
+    code: 'WELCOME10',
+    title: 'Welcome — $10 off',
+    description: 'A little hello on us. Use on your first order over $40.',
+    discountType: 'flat',
+    discountValue: 10,
+    minOrder: 40,
+    expiresAt: '2026-06-30',
+  },
+  {
+    id: 'cp5',
+    code: 'SUMMER25',
+    title: '25% off summer edit',
+    description: 'Was a limited summer promo. Now expired — check back soon.',
+    discountType: 'percent',
+    discountValue: 25,
+    expiresAt: '2025-09-01',
+    expired: true,
+  },
+];

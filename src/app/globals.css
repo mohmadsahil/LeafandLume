@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand: olive #879e3d on warm cream #fffefc */
+    --background: 36 100% 99%;
+    --foreground: 80 12% 14%;
+    --card: 36 100% 99%;
+    --card-foreground: 80 12% 14%;
+    --popover: 36 100% 99%;
+    --popover-foreground: 80 12% 14%;
+    --primary: 70 44% 43%;
+    --primary-foreground: 36 100% 99%;
+    --secondary: 60 20% 95%;
+    --secondary-foreground: 80 12% 14%;
+    --muted: 60 20% 95%;
+    --muted-foreground: 80 8% 40%;
+    --accent: 70 25% 90%;
+    --accent-foreground: 80 12% 14%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 36 100% 99%;
+    --border: 60 15% 88%;
+    --input: 60 15% 88%;
+    --ring: 70 44% 43%;
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 80 10% 6%;
+    --foreground: 36 30% 96%;
+    --card: 80 10% 8%;
+    --card-foreground: 36 30% 96%;
+    --popover: 80 10% 8%;
+    --popover-foreground: 36 30% 96%;
+    --primary: 70 50% 55%;
+    --primary-foreground: 80 10% 6%;
+    --secondary: 80 8% 14%;
+    --secondary-foreground: 36 30% 96%;
+    --muted: 80 8% 14%;
+    --muted-foreground: 80 6% 65%;
+    --accent: 70 20% 18%;
+    --accent-foreground: 36 30% 96%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 36 30% 96%;
+    --border: 80 8% 18%;
+    --input: 80 8% 18%;
+    --ring: 70 50% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    font-family: var(--font-poppins), system-ui, sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    font-family: var(--font-poppins), system-ui, sans-serif;
+    @apply bg-background text-foreground;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button,
+  input,
+  textarea,
+  select {
+    font-family: var(--font-poppins), system-ui, sans-serif;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+  /* Hide native scrollbar in horizontal scrollers but keep functionality */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-background/60 backdrop-blur-xl backdrop-saturate-150;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-luxury-gradient {
+    background:
+      radial-gradient(ellipse at top, hsl(var(--primary) / 0.08), transparent 60%),
+      radial-gradient(ellipse at bottom right, hsl(var(--primary) / 0.04), transparent 50%),
+      hsl(var(--background));
+  }
+  .bg-cream-gradient {
+    background: linear-gradient(135deg, hsl(36 80% 97%) 0%, hsl(60 30% 95%) 100%);
+  }
+  .bg-olive-gradient {
+    background: linear-gradient(135deg, hsl(70 40% 92%) 0%, hsl(70 30% 86%) 100%);
+  }
+  .shadow-soft {
+    box-shadow:
+      0 1px 2px rgba(80, 90, 50, 0.04),
+      0 8px 24px -8px rgba(80, 90, 50, 0.12);
+  }
+  .shadow-luxury {
+    box-shadow:
+      0 1px 2px rgba(80, 90, 50, 0.05),
+      0 20px 50px -12px rgba(80, 90, 50, 0.18);
+  }
+}

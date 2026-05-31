@@ -1,0 +1,1 @@
+Robots.txt is generated dynamically by src/app/robots.ts — this file is just a placeholder so the public/ directory is committed.
